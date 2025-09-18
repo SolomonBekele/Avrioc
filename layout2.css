@@ -3,47 +3,54 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+html{
+    font-size: 62.5%;
+    /* 1 rem =10 px */
+}
 body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: lightgray;
 }
 .main-container{
-    max-width: 1200px;
+    max-width: 120rem;
     margin: 0 auto;
     width:90%
 }
 
 .reviews-grid{
     display: grid;
-    grid-template-columns: 2fr 2fr;
-    max-width: 1200px;
-    margin :100px auto;
-    gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    max-width: 120rem;
+    margin :10rem auto;
+    gap: 2rem;
 }
 .review-card{
     background-color: white;
-    padding: 20px;
+    padding: 2rem;
     border: 1px solid darkgray;
     border-radius: 8px;
 }
 .review-heading{
-    font-size: 40px;
+    font-size: 4rem;
     font-weight:700;
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
 }
 .review-text{
-    font-size:  20px;
-    margin-bottom: 10px;
+    font-size:  2rem;
+    margin-bottom: 1rem
 }
 .review-person{
-    font-size: 18px;
+    font-size: 1.8rem;
     font-weight: 700;
 }
 
-@media(max-width:1000px){
-    .review-card{
-        padding: 15px;
+@media(max-width:62.5rem){
+    html{
+        font-size: 50%;
+        /* 50% * 16px = 8px */
+    }
+    /* .review-card{
+    padding: 15px;
     }
 
     .review-heading{
@@ -56,11 +63,15 @@ body{
     }
     .review-person{
         font-size: 14px;
-    }
+    } */
 }
 
 @media(max-width:500px){
-    .review-card{
+    html{
+        font-size: 37.5%;
+        /* 37.5% *16 = 6px */
+    }
+    /* .review-card{
         padding: 10px;
     }
 
@@ -74,5 +85,8 @@ body{
     }
     .review-person{
         font-size: 12px;
+    } */
+     .reviews-grid{
+        grid-template-columns: 1fr;
     }
 }
