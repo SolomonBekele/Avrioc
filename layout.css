@@ -1,0 +1,22 @@
+h1{
+    font-size: 80px;
+    color: rgb(74, 166, 246);
+}
+@media(max-width: 1500px){
+    h1{
+    font-size: 50px;
+    color: rgb(221, 167, 67);
+    }
+}
+@media(max-width: 1000px){
+    h1{
+    font-size: 40px;
+    color: rgb(104, 252, 109);
+    }
+}
+@media(max-width:200px){
+    h1{
+        font-size: 20px;
+        color: #440202;
+    }
+}
