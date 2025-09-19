@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'DM Sans', sans-serif;
+}
+html{
+    font-size: 62.5%;
+}
+.main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+    background: #f2723c;
+    
+}
+.main .left{
+    max-width: 90%;
+    justify-content: center;
+}
+.main .left .back{
+    display: flex;
+    margin: 10rem 0px 8rem 10rem ;
+    color: white;
+    font-size: 1.5rem;
+}
+.main .left .back svg{
+    margin: 0.5rem 0.5rem 0 0;
+}
+.main .left-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+ }
+
+.main .left-center img{
+    width: 26.4rem;
+    height: 26.4rem;
+    border-radius: 32.4rem;
+    border: 3.54px solid white;
+}
+.main .left-center p{
+margin-top: 2rem;
+font-size: 5.6rem;
+line-height: 6.2rem;
+letter-spacing: -2%;
+color: white;
+
+}
+.right {
+    background: white;
+    border-radius: 12px;
+    border: 1px solid #F8F8FF;
+    box-shadow: 0px 0px 16px 16px #7f726b40;
+
+}
+.right .container{
+    display: grid;
+    justify-content: center;
+
+    margin: 22rem 0;
+}
+.container .login{
+    display: flex;
+    justify-content: center;
+    color: #40466A;
+    font-size: 3.6rem; 
+    margin-bottom: 0.5rem;
+
+}
+.container .enter{
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    margin: 1rem 0px;
+}
+/* .form-body {
+    width: 46.8rem;
+    margin: auto;
+} */
+.form-body .google{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f2723c;
+    opacity: 1;
+    width: 46rem;
+    height: 4.7rem;
+    opacity: 1;
+    border-radius: 15.08px;
+    background: #f4e7e7;
+    gap: 0.5rem;
+    font-size: 1.5rem;
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+}
+.lines {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+.lines hr{
+    border: 0.94px solid #E7E7E7;
+    width: 21rem;
+}
+.lines span {
+    margin: 0 1.5rem; 
+    color: #333;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+
+.login-form label {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 1.4rem;
+    line-height: 100%;
+    letter-spacing: -2%;
+    color: #40466A;
+}
+
+.login-form input{
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 44.5rem;
+opacity: 1;
+border: 1px solid #BDBDBD;
+border-radius: Space 16;
+}
+.input-wrapper {
+    position: relative; 
+}
+.input-icon {
+    position: absolute;
+    right: 1.5rem; /* Position from the right */
+    top: 38%; 
+    transform: translateY(-50%); /* Adjust for vertical alignment */
+    cursor: pointer;
+}
+.login-form input::placeholder{
+    color: #BDBDBD;
+}
+.login-form button {
+    padding: 1rem;
+    background-color: #f2723c;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 38rem;
+    height: 5.8rem;
+    opacity: 1;
+    border-radius: 50px;
+    margin: 4rem auto;
+    font-size: 1.5rem;
+
+}
+.login-form button:hover {
+    background-color: #f2723c;
+}
+.form-container .account{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    color: #2B3674;
+    font-size: 1.5rem;
+
+
+}
+.form-container .account span a{
+    margin-left: 3px;
+    color:#f2723c;
+    text-decoration: none;
+}
+@media(max-width:62.5rem){
+    html{
+        font-size: 50%;
+        /* 50% * 16px = 8px */
+    }
+}
+
+@media(max-width:500px){
+    html{
+        font-size: 37.5%;
+        /* 37.5% *16 = 6px */
+    }
+     .main{
+        grid-template-columns: 1fr;
+    }
+}

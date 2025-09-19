@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="left">
+            <div class="back">
+                <svg width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M6.70994 2.11973L2.82994 5.99973L6.70994 9.87973C7.09994 10.2697 7.09994 10.8997 6.70994 11.2897C6.31994 11.6797 5.68994 11.6797 5.29994 11.2897L0.709941 6.69973C0.319941 6.30973 0.319941 5.67973 0.709941 5.28973L5.29994 0.699726C5.68994 0.309727 6.31994 0.309727 6.70994 0.699727C7.08994 1.08973 7.09994 1.72973 6.70994 2.11973Z"
+                        fill="white" />
+                </svg>
+
+                <p>Back to Landing Page</p>
+            </div>
+
+            <div class="left-center">
+                <img src="avrioc1.jpeg" alt="">
+                <p>Avrioc Technologies</p>
+            </div>
+        </div>
+        <div class="right">
+            <div class="container">
+                <p class="login">Login</p>
+                <p class="enter">Enter your email and password to login!</p>
+                <div class="form-body">
+                    <div class="google">
+                        <svg width="23" height="20" viewBox="0 0 23 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_325_408)">
+                                <path
+                                    d="M22.5863 10.3088C22.5863 9.6883 22.5197 9.09923 22.4055 8.52588H11.6567V12.0681H17.8111C17.5353 13.2305 16.7267 14.2123 15.5282 14.8799V17.2361H19.1999C21.3497 15.5946 22.5863 13.1755 22.5863 10.3088Z"
+                                    fill="#4285F4" />
+                                <path
+                                    d="M11.6568 19.5219C14.7388 19.5219 17.3166 18.6737 19.2 17.2363L15.5283 14.8801C14.5009 15.4456 13.1978 15.7912 11.6568 15.7912C8.67948 15.7912 6.15875 14.1339 5.25509 11.8955H1.46924V14.3224C3.34314 17.4013 7.19558 19.5219 11.6568 19.5219Z"
+                                    fill="#34A853" />
+                                <path
+                                    d="M5.25511 11.8957C5.01731 11.3302 4.89365 10.7255 4.89365 10.0971C4.89365 9.46879 5.02682 8.86402 5.25511 8.29852V5.87158H1.46926C0.68926 7.14396 0.242188 8.57341 0.242188 10.0971C0.242188 11.6208 0.68926 13.0503 1.46926 14.3227L5.25511 11.8957Z"
+                                    fill="#FBBC05" />
+                                <path
+                                    d="M11.6568 4.4026C13.3405 4.4026 14.8434 4.88171 16.0324 5.81635L19.2856 3.13023C17.3166 1.60652 14.7388 0.671875 11.6568 0.671875C7.19558 0.671875 3.34314 2.7925 1.46924 5.87133L5.25509 8.29827C6.15875 6.05983 8.67948 4.4026 11.6568 4.4026Z"
+                                    fill="#EA4335" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_325_408">
+                                    <rect width="22.8293" height="18.85" fill="white"
+                                        transform="translate(0 0.671875)" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+
+                        <p>Sign in with Google</p>
+                    </div>
+                    <div class="lines">
+                        <hr>
+                        <span>or</span>
+                        <hr>
+                    </div>
+                        <div class="form-container">
+                            <form id="loginForm" class="login-form">
+                                <label for="email">Email:</label>
+                                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                                <p id="emailMessage" style="margin-bottom: 5px;"></p>
+                                <label for="password">Password:</label>
+                                <div class="input-wrapper">
+                                    <input type="password" id="password" name="password" placeholder="Min 8 character"
+                                        required>
+                                    <svg id="togglePassword" class="input-icon" width="19" height="13" viewBox="0 0 19 13" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M9.42523 2.49954C12.402 2.49954 15.0567 4.17248 16.3526 6.81933C15.0567 9.46619 12.4098 11.1391 9.42523 11.1391C6.44064 11.1391 3.79379 9.46619 2.49785 6.81933C3.79379 4.17248 6.4485 2.49954 9.42523 2.49954ZM9.42523 0.928711C5.49814 0.928711 2.14441 3.37136 0.785645 6.81933C2.14441 10.2673 5.49814 12.71 9.42523 12.71C13.3523 12.71 16.706 10.2673 18.0648 6.81933C16.706 3.37136 13.3523 0.928711 9.42523 0.928711ZM9.42523 4.85579C10.5091 4.85579 11.3888 5.73546 11.3888 6.81933C11.3888 7.90321 10.5091 8.78288 9.42523 8.78288C8.34135 8.78288 7.46168 7.90321 7.46168 6.81933C7.46168 5.73546 8.34135 4.85579 9.42523 4.85579ZM9.42523 3.28496C7.47739 3.28496 5.89085 4.8715 5.89085 6.81933C5.89085 8.76717 7.47739 10.3537 9.42523 10.3537C11.3731 10.3537 12.9596 8.76717 12.9596 6.81933C12.9596 4.8715 11.3731 3.28496 9.42523 3.28496Z"
+                                            fill="#A2A7B7" />
+                                    </svg>
+                                </div>
+                                <button type="submit">Login</button>
+                            </form>
+                            <p class="account">Not register yet? <span><a href="forms.html">Register</a></span></p>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="forms.js"></script>
+</body>
+
+</html>
