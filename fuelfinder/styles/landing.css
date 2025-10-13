@@ -140,6 +140,7 @@ header .container .logo {
 .features{
     
     background-color: white;
+    padding: 3rem 0;
 }
 .features__container{
     max-width: 95%;
@@ -211,8 +212,66 @@ header .container .logo {
 }
 .features__content .feature .feature__description{
     font-size: 1.6rem;
-    font-weight: 400;
+    font-weight: 200;
     color: #000B33;
     line-height: 1.5;
 }
+.advertisement__container{
+    max-width: 95%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    padding: 6rem 0;
+}
+.advertisement__container .advertisement__icon{
+   width: 50rem;
+    height: 50rem;
+    margin: 0 auto;
+  background: url("data:image/svg+xml;utf8,<svg width='499' height='500' viewBox='0 0 499 500' fill='none' xmlns='http://www.w3.org/2000/svg'><foreignObject x='-4.00049' y='-3.17676' width='507' height='507'><div xmlns='http://www.w3.org/1999/xhtml' style='backdrop-filter:blur(2px);clip-path:url(%23bgblur_0_287_494_clip_path);height:100%;width:100%'></div></foreignObject><circle data-figma-bg-blur-radius='4' cx='249.499' cy='250.323' r='249.5' transform='rotate(90 249.499 250.323)' fill='%2376D1A5'/><defs><clipPath id='bgblur_0_287_494_clip_path' transform='translate(4.00049 3.17676)'><circle cx='249.499' cy='250.323' r='249.5' transform='rotate(90 249.499 250.323)'/></clipPath></defs></svg>")
+              no-repeat center/contain;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin:20px auto;
+}
+.advertisement__container .advertisement__icon img{
+   
+    height: 60rem;
+}
+.advertisement__container .advertisement__text{
+    max-width: 40rem;
+    margin: auto;
+}
 
+.advertisement__container .advertisement__text .advertisement__title{
+    font-size: 4.8rem;
+    font-weight: 700;
+    color: #193263;
+    line-height: 1.2;
+}
+.advertisement__container .advertisement__text span{
+    color: #28B872;
+}
+.advertisement__container .advertisement__text .advertisement__subtitle{
+    font-size: 2rem;
+    font-weight: 200;
+    color:#000B33;
+    line-height: 1.5;
+    margin: 2rem 0;
+}
+.advertisement__container .advertisement__text .advertisement__button{
+    display: inline-flex;
+    background-color: #28B872;
+    color: white;
+    padding: 1.5rem 3rem;
+    border-radius: 8px;
+    font-size: 1.8rem;
+    font-weight: 500;
+    text-decoration: none;
+    align-items: center;
+    transition: background-color 0.3s ease;
+    gap: 1rem;
+}
