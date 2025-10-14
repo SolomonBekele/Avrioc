@@ -275,3 +275,449 @@ header .container .logo {
     transition: background-color 0.3s ease;
     gap: 1rem;
 }
+.testimonial{
+    background-color: white;
+    padding: 10rem 0;
+}
+.testimonial__container{
+    max-width: 95%;
+    margin: auto;
+}       
+.testimonial__header {
+    
+    text-align: center;
+    color: #28B872;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 4.6rem;
+}
+.testimonial__container .testimonial__title {
+    font-size: 4.6rem;
+    font-weight: 700;
+    max-width: 62rem;
+    color: #193263;
+    
+    text-align: center;
+    margin: 4rem auto;
+}
+.testimonial__title .testimonial__title-text span{
+    color: #28B872;
+}
+.testimonial__content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4rem;
+    padding: 0 6rem 6rem 6rem;
+}
+.testimonial__content .testimonial__card{
+    background-color: white;
+    box-shadow: 0px 4px 20px 0px #28B87240;
+    border-radius: 20px;               
+    padding: 4rem 4rem;
+    /* text-align: center; */
+}     
+.testimonial__content .testimonial__card .testimonial__quote{
+    font-size: 1.6rem;
+    font-weight: 200;
+    color: #000B33;
+    line-height: 1.5;
+    margin: 2rem 0;
+}     
+.testimonial__content .testimonial__card .testimonial__user{
+    display: flex;
+    gap: 1.5rem;
+    justify-content: space-between;
+}
+.testimonial__content .testimonial__card .testimonial__user .testimonial__user_info{
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+.testimonial__content .testimonial__card .testimonial__user .testimonial__user_info .testimonial__user_image{
+    width: 6rem;                    
+    height: 6rem;
+    border-radius: 50%;
+    border: 1px solid #28B872;
+}
+.testimonial__content .testimonial__card .testimonial__user .testimonial__user_info .testimonial__author-details .testimonial__author{
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #193263;
+}
+.testimonial__content .testimonial__card .testimonial__user .testimonial__user_info .testimonial__author-details .testimonial__author-role{
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #8EA197;
+}
+.testimonial__content .testimonial__card .testimonial__user .testimonial__user_rating{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.testimonial__container .testimonial__indicators{
+    text-align: center;
+}
+.testimonial__container .testimonial__indicators .indicator{
+    display: inline-block;
+    width: 1.7rem;
+    height: 0.8rem;
+    background-color: #28B87233;
+    border-radius: 4px;
+    margin: 0 0.25rem;
+    cursor: pointer;
+}
+.testimonial__container .testimonial__indicators .indicator.active{
+    background-color: #28B872;
+    width: 3rem;
+}
+.fuel__price{
+    padding: 11rem 10rem;
+    }
+.fuel__price .fuel__price-container{
+    max-width: 90%;
+    margin: auto;
+}
+.fuel__price .fuel__price-container .fuel__price-title{
+    
+
+}
+.fuel__price .fuel__price-container .fuel__price-title {
+    font-size: 4.6rem;
+    font-weight: 700;
+    color: #193263;
+    line-height: 1.2;
+    text-align: center;
+    margin: auto;
+    max-width: 62rem;
+}
+.fuel__price .fuel__price-container .fuel__price-title span{
+    color: #28B872;
+}
+.fuel__price .fuel__price-container .fuel__price-cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);  
+    gap: 4rem;
+    padding: 6rem 0 0 0;
+}
+.fuel__price .fuel__price-container .fuel__price-card{
+    background-color: white;
+    box-shadow: 0px 4px 20px 0px #28B87240;
+    border-radius: 20px;               
+    padding: 4rem 4rem;
+    color: #193263;
+}
+.fuel__price .fuel__price-container .fuel__price-card .fuel__price-row-container{
+  
+}
+.fuel__price .fuel__price-container .fuel__price-card .fuel__price-row-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.fuel__price .fuel__price-container .fuel__price-card .fuel__price-row-1-left{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+.fuel__price .fuel__price-container .fuel__price-card .fuel__price-row-1-left .fuel__icon{
+    width: 8rem;
+    height: 8rem;
+    background: url("data:image/svg+xml;utf8,<svg width='73' height='80' viewBox='0 0 73 80' xmlns='http://www.w3.org/2000/svg'><path opacity='0.15' d='M30.3559 1.56846C33.9781 -0.522818 38.4408 -0.522819 42.063 1.56845L66.5654 15.7149C70.1876 17.8062 72.4189 21.671 72.4189 25.8536V54.1465C72.4189 58.329 70.1876 62.1938 66.5654 64.2851L42.063 78.4315C38.4408 80.5228 33.9781 80.5228 30.3559 78.4315L5.85356 64.2851C2.23136 62.1938 0 58.329 0 54.1465V25.8536C0 21.671 2.23136 17.8062 5.85355 15.7149L30.3559 1.56846Z' fill='%2300B87B'/></svg>") no-repeat center/contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fuel__price .fuel__price-container .fuel__price-card .fuel__price-row-1-left .fuel__icon .fuel__image{
+    width: 3rem;
+    height: 3rem;
+}
+.fuel__price .fuel__price-container .fuel__price-card .fuel__price-row-1-left .fuel__info{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.fuel__price .fuel__price-container .fuel__price-card .fuel__price-row-1-left .fuel__info .fuel__type{
+
+    font-size: 1.4rem;
+    font-weight: 350;
+
+}
+.fuel__price .fuel__price-container .fuel__price-card .fuel__price-row-1-left .fuel__info .fuel__price-amount{
+    font-size: 2rem;
+    font-weight: 600;;
+}
+
+.fuel__price .fuel__price-container .fuel__price-card .fuel__price-row-1-right {
+    color: red;
+    margin-top: 2rem;
+}
+/* .fuel__price .fuel__price-container .fuel__price-card .fuel__price-row-1-right:nth-child(2){
+    color: #28B872;
+} */
+.fuel__price-row-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem 0;
+}
+.fuel__price-row-2 .fuel__price-schedule-left{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+.fuel__price-row-2 .fuel__price-schedule-left .schedule__icon{
+    width: 4rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+.fuel__price-row-2 .fuel__price-schedule-left .schedule__icon .calander__image{
+    width: 2.5rem;
+    height: 2.5rem;
+    }
+.fuel__price-row-2 .fuel__price-schedule-left .schedule__info{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.fuel__price-row-2 .fuel__price-schedule-left .schedule__info .schedule__from{
+    font-size: 1.2rem;
+    font-weight: 350;
+    color: #6B6E73;
+}
+.fuel__price-row-2 .fuel__price-schedule-left .schedule__info .schedule__date{
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+.fuel__price-row-2 .fuel__price-schedule-right{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+.fuel__price-row-2 .fuel__price-schedule-right .schedule__icon{
+    width: 4rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fuel__price-row-2 .fuel__price-schedule-right .schedule__icon .calander__image{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+.fuel__price-row-2 .fuel__price-schedule-right .schedule__info{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.fuel__price-row-2 .fuel__price-schedule-right .schedule__info .schedule__to{
+    font-size: 1.2rem;
+    font-weight: 350;
+    color: #6B6E73;
+}
+.fuel__price-row-2 .fuel__price-schedule-right .schedule__info .schedule__date{
+    font-size: 1.8rem;
+    font-weight: 500;       
+}
+.fuel__price .fuel__price-container .fuel__price-card .fuel__price-row-3{
+    margin-top: 2rem;
+}
+.fuel__price .fuel__price-container .fuel__price-card .fuel__price-row-3 .fuel__price-source{
+display: flex;
+align-items: center;
+gap: 1.5rem;
+}
+.fuel__price .fuel__price-container .fuel__price-card .fuel__price-row-3 .fuel__price-source .source__icon{
+    width: 4rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fuel__price .fuel__price-container .fuel__price-card .fuel__price-row-3 .fuel__price-source .source__icon .fuel__image{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+.fuel__price .fuel__price-container .fuel__price-card .fuel__price-row-3 .fuel__price-source .source__info{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.fuel__price .fuel__price-container .fuel__price-card .fuel__price-row-3 .fuel__price-source .source__info .source{
+    font-size: 1.2rem;
+    font-weight: 350;
+    color: #6B6E73;
+}
+.fuel__price .fuel__price-container .fuel__price-card .fuel__price-row-3 .fuel__price-source .source__info .source__name{
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+.fuel__price hr{
+    border: 0.07rem solid #EBEBEB;
+    margin: auto;
+    width: 100%;
+    margin-top: 2rem;
+}
+.contact{
+    background-color: white;
+    padding: 11rem 10rem;
+}
+.contact .contact__container{
+    max-width: 80%;
+    margin: auto;
+}
+.contact  .contact__us{
+    font-size: 4.6rem;
+    font-weight: 600;
+    color: #193263;
+    line-height: 1.2;
+    text-align: center;
+    margin: auto;
+}
+.contact .contact__container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    padding: 6rem 0 0 0;
+}
+.contact .contact__container .contact__left{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+   
+}
+.contact .contact__container .contact__left .contact__title{
+    font-size: 3.4rem;
+    font-weight: 700;
+    color: #193263; 
+    margin:auto;    
+
+}
+.contact .contact__container .contact__left .contact__subtitle{
+    font-size: 1.6rem;
+    font-weight: 200;
+    color: #000B33;
+    line-height: 1.5;
+    margin: 2rem auto;
+    max-width: 45rem;
+    text-align: center;
+}
+.contact .contact__container .contact__left .contacts{
+    margin: auto;
+}
+.contact .contact__container .contact__left .contact__item{
+    display: flex;
+    gap: 2rem;
+    margin: 2rem 0; 
+}
+.contact .contact__container .contact__left .contact__item .contact__icon{
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url("data:image/svg+xml;utf8,<svg width='73' height='80' viewBox='0 0 73 80' xmlns='http://www.w3.org/2000/svg'><path opacity='0.15' d='M30.3559 1.56846C33.9781 -0.522818 38.4408 -0.522819 42.063 1.56845L66.5654 15.7149C70.1876 17.8062 72.4189 21.671 72.4189 25.8536V54.1465C72.4189 58.329 70.1876 62.1938 66.5654 64.2851L42.063 78.4315C38.4408 80.5228 33.9781 80.5228 30.3559 78.4315L5.85356 64.2851C2.23136 62.1938 0 58.329 0 54.1465V25.8536C0 21.671 2.23136 17.8062 5.85355 15.7149L30.3559 1.56846Z' fill='%2300B87B'/></svg>") no-repeat center/contain;
+}
+.contact .contact__container .contact__left .contact__item .contact__icon .contact__image{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+.contact .contact__container .contact__left .contact__item .contact__info{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;    
+}
+
+.contact .contact__container .contact__left .contact__item .contact__info .contact__info-detail{
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #6B6E73; 
+}
+.contact .contact__container .contact__right{
+    background-color: #EBF7F3;
+    border: 2px solid #FFFFFF;
+    box-shadow: 0px 0px 12px 0px #28B87240;
+    border-radius: 1.8rem;
+    padding: 6rem;
+    
+}
+.contact .contact__container .contact__right form{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.contact .contact__container .contact__right form .form__group{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.contact .contact__container .contact__right form .form__group label{
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #193263;
+}
+.contact .contact__container .contact__right form .form__group .form__label span{
+    color: red;
+    margin-left: 0.2rem;
+}
+.contact .contact__container .contact__right form .form__group input,
+.contact .contact__container .contact__right form .form__group textarea{
+    padding: 1.5rem;
+    border: 1px solid #C4C4C4;
+    border-radius: 0.8rem;
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #193263;
+    resize: vertical;
+}
+.contact .contact__container .contact__right form .form__group input:focus,
+.contact .contact__container .contact__right form .form__group textarea:focus{
+    outline: none;
+    border-color: #28B872;
+    box-shadow: 0 0 5px #28B872;
+}
+.contact .contact__container .contact__right form .form__group textarea{
+    min-height: 10rem;
+}
+.contact .contact__container .contact__right form .form__group input::placeholder,
+.contact .contact__container .contact__right form .form__group textarea::placeholder{
+    color: #A9A9A9;
+}
+
+.contact .contact__container .contact__right form .submit__form{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1rem;
+}
+.contact .contact__container .contact__right form .submit__button{
+    background-color: #28B872;
+    color: white;
+    padding: 1.5rem 3rem;
+    border-radius: 8px;
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    align-self: flex-start;
+    transition: background-color 0.3s ease;
+    align-content: end;
+}
+.contact .contact__container .contact__right form  .submit__button:hover{
+    background-color: #149a6e;
+    color: white;
+}
+footer{
+    background-color: #004725;
+    color: white;
+    padding: 6rem 0;
+}
+footer .footer__container{
+    max-width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4rem;
+}
